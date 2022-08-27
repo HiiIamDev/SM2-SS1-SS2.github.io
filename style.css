@@ -1,0 +1,84 @@
+@font-face {
+    font-family: myFont;
+    src: url(Assets/FallingSkyBlackOblique-j37y.otf);
+}
+
+body {
+    font-family: myFont;
+    margin: 0;
+    padding: 0;
+    background-color: #262626;
+    color: white;
+}
+
+.dark {
+    background-color: #3b3737;
+    color: white;
+}
+
+.light {
+    background-color: white;
+    color: black;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.usr {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #3b3737;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.usr img {
+    width: 200px;
+}
+
+.usr span {
+    font-size: 10px;
+}
+
+.usr a {
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    padding: 20px 130px;
+    margin: 10px;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.usr a:hover {
+    background-color: white;
+    color: black;
+}
+
+.btn {
+    flex-wrap: wrap;
+}
+
+.sa {
+    height: 100%;
+    margin: 0%;
+    border-radius: 0;
+   background-color: rgb(17, 17, 17);
+   border: 0;
+   
+}
