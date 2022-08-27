@@ -80,5 +80,10 @@ body {
     border-radius: 0;
    background-color: rgb(17, 17, 17);
    border: 0;
-   
+}
+
+@media only screen and (max-width: 400px) {
+    .sa a {
+        padding: 10% 60px;
+    }
 }
